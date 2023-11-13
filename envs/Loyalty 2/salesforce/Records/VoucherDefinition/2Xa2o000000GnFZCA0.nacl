@@ -8,7 +8,7 @@ salesforce.VoucherDefinition "2Xa2o000000GnFZCA0" {
   IsPartialRedeemable = false
   LoyaltyProgramId = salesforce.LoyaltyProgram.instance.0lp2o000000KzawAAC
   Name = "10% off sitewide"
-  PartnerAccountId = salesforce.Account.instance.NTO
+  
   Type = "DiscountPercentage"
   _alias = "10% off sitewide"
 }

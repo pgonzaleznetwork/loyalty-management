@@ -8,7 +8,7 @@ salesforce.VoucherDefinition "2Xa2o000000GnFcCAK" {
   IsPartialRedeemable = false
   LoyaltyProgramId = salesforce.LoyaltyProgram.instance.0lp2o000000KzawAAC
   Name = "$10 voucher applicable on jackets"
-  PartnerAccountId = salesforce.Account.instance.NTO
+  
   Type = "FixedValue"
   _alias = "$10 voucher applicable on jackets"
 }
