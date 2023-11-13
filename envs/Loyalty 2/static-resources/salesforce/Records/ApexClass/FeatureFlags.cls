@@ -1,5 +1,6 @@
 public with sharing class FeatureFlags implements IFeatureFlags {
     
+    //comment
     private Map<String,FeatureFlag__mdt> features; 
     private Set<String> customPermissionNames; 
     private static Map<String,Boolean> mockValues = new Map<String,Boolean>();
@@ -19,6 +20,8 @@ public with sharing class FeatureFlags implements IFeatureFlags {
         if(Test.isRunningTest() && mockValues.containsKey(featureName)){
             return new FeatureEvaluationResult(mockValues.get(featureName), featureName, FeatureReason.MOCK_VALUE);
         }
+        
+        System.debug(true);
 
         FeatureEvaluationResult result;
 
