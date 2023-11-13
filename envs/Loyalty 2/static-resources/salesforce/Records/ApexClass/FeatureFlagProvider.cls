@@ -12,5 +12,11 @@ public with sharing class FeatureFlagProvider implements IFeatureFlagProvider {
     public Map<String,FeatureFlag__mdt> getFeatureFlags(){
         return FeatureFlag__mdt.getAll();
     }
+    
+    public static void badQuery(){
+        for(Integer x=0;x < 10; x++){
+            List<Account> accts = [SELECT Id FROM Account];
+        }
+    }
 
 }
