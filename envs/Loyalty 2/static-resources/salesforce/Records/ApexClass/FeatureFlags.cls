@@ -1,5 +1,6 @@
 public with sharing class FeatureFlags implements IFeatureFlags {
     
+    //comment
     private Map<String,FeatureFlag__mdt> features; 
     private Set<String> customPermissionNames; 
     private static Map<String,Boolean> mockValues = new Map<String,Boolean>();
