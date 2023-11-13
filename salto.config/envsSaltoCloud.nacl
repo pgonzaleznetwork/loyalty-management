@@ -1,0 +1,8 @@
+envs {
+  envsCloud = [
+    {
+      uuid = "6ee8a10b-188a-4023-a540-4e17c09cbe23"
+      folderName = "Loyalty 2"
+    },
+  ]
+}
