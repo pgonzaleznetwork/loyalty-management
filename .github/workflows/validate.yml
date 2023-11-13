@@ -125,31 +125,7 @@ jobs:
             # The desired behavior if no files are found using the provided path.
             if-no-files-found: error
             retention-days: 14 # optional
-  upload_provar_tests_results:
-    name: "Publish Test Results"
-    needs: Provar_Regression_Testing
-    runs-on: ubuntu-latest
-    permissions:
-      checks: write
-      pull-requests: write
-    # the run_provar_tests job might be skipped, we don't need to run this job then
-    if: success() || failure()
-    steps:
-      - name: Download Artifacts
-        uses: actions/download-artifact@v3
-        with:
-          path: artifacts
-
-      - name: Publish JUnit Test Results
-        uses: EnricoMi/publish-unit-test-result-action@v2
-        with:
-          check_name: "Provar Regression Test Report"
-          # File pattern of test result files
-          files: '**/Results/*.xml'
-          # Individual runs of the same test may see different failures. Reports all individual failures when set "true" or the first only otherwise
-          report_individual_runs: true
-          # De-duplicates classes with same name by their file name when set "true", combines test results for those classes otherwise
-          deduplicate_classes_by_file_name: false
+  
   send_slack_message:
     runs-on: ubuntu-latest
     needs: [deployment_validation]
