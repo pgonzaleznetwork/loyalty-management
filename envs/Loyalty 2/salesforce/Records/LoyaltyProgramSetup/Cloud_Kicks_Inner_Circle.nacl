@@ -1,0 +1,5 @@
+salesforce.LoyaltyProgramSetup Cloud_Kicks_Inner_Circle {
+  fullName = "Cloud_Kicks_Inner_Circle"
+  label = "Cloud Kicks Inner Circle"
+  _alias = "Cloud Kicks Inner Circle"
+}
