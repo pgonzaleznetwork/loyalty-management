@@ -55,6 +55,9 @@ jobs:
         env: 
           SALTO_API_TOKEN: ${{ secrets.SALTO_API_TOKEN }}
           SALTO_URL: https://app-staging.salto.io
+          AUTH0_DOMAIN: salto-staging.us.auth0.com
+          AUTH0_CLIENT_ID: VInwYv5FbNXe6wLfRMQJXTHoB61CgXQd
+          GRAPHQL_URL: https://w6hsr1wvc0.execute-api.us-east-2.amazonaws.com/staging/graphql
 
   static_code_analysis:
     runs-on: ubuntu-latest
