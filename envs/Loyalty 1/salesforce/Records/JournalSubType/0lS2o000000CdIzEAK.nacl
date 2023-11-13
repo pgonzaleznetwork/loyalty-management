@@ -1,0 +1,5 @@
+salesforce.JournalSubType "0lS2o000000CdIzEAK" {
+  JournalTypeId = salesforce.JournalType.instance.0lE2o000000CeALEA0
+  Name = "Social Media Activity"
+  _alias = "Accrual Social Media Activity"
+}

@@ -73,6 +73,39 @@ salesforce {
         },
       ]
     }
+    data = {
+      includeObjects = [
+        "LoyaltyProgram",
+        "LoyaltyProgramCurrency",
+        "LoyaltyTierGroup",
+        "LoyaltyTier",
+        "BenefitType",
+        "Benefit",
+        "LoyaltyTierBenefit",
+        "JournalType",
+        "JournalSubType",
+        "LoyaltyProgramBadge",
+        "VoucherDefinition",
+        "Promotion"
+      ]
+      saltoIDSettings = {
+        defaultIdFields = [
+          "Id",
+        ]
+        overrides = [
+          {
+            objectsRegex = "Account"
+            idFields = [
+              "Name",
+            ]
+          },
+        ]
+      }
+
+      allowReferenceTo = [
+        "Account",
+      ]
+    }
     fetchAllCustomSettings = false
     maxInstancesPerType = 5000
   }

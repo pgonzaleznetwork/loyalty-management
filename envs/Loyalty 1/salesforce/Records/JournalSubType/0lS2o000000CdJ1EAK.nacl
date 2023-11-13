@@ -1,0 +1,5 @@
+salesforce.JournalSubType "0lS2o000000CdJ1EAK" {
+  JournalTypeId = salesforce.JournalType.instance.0lE2o000000CeALEA0
+  Name = "Customer Survey"
+  _alias = "Accrual Customer Survey"
+}
