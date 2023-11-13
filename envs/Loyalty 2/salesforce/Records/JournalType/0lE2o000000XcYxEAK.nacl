@@ -1,0 +1,6 @@
+salesforce.JournalType "0lE2o000000XcYxEAK" {
+  Description = "Represents a transaction that manually adjusts points for a loyalty program member."
+  Name = "Manual Points Adjustment"
+  ProcessType = "Loyalty"
+  _alias = "Manual Points Adjustment"
+}
