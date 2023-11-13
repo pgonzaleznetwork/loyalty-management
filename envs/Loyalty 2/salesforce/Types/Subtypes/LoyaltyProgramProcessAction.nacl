@@ -15,7 +15,7 @@ type salesforce.LoyaltyProgramProcessAction {
   }
   string actionName {
   }
-  "List<salesforce.LoyaltyProgramProcessActionParameter>" actionParameters {
+  salesforce.LoyaltyProgramProcessActionParameter actionParameters {
   }
   string actionType {
     _restriction = {

@@ -389,6 +389,7 @@ type salesforce.BriefcaseRule {
         "Expense",
         "ExpenseReport",
         "ExpenseReportEntry",
+        "FeatureFlag__mdt",
         "FinanceBalanceSnapshot",
         "FinanceTransaction",
         "FlowOrchestrationInstance",

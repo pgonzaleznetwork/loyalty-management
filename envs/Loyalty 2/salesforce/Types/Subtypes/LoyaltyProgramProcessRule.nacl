@@ -13,7 +13,7 @@ type salesforce.LoyaltyProgramProcessRule {
     string dirName {
     }
   }
-  "List<salesforce.LoyaltyProgramProcessAction>" actions {
+  salesforce.LoyaltyProgramProcessAction actions {
   }
   salesforce.LoyaltyProgramProcessCondition conditions {
   }
@@ -41,7 +41,7 @@ type salesforce.LoyaltyProgramProcessRule {
       ]
     }
   }
-  "List<salesforce.LoyaltyProgramProcessRuleStepMapping>" stepMappings {
+  salesforce.LoyaltyProgramProcessRuleStepMapping stepMappings {
   }
   metadataType = "LoyaltyProgramProcessRule"
 }

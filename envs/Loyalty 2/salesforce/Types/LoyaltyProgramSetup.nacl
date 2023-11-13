@@ -17,7 +17,7 @@ type salesforce.LoyaltyProgramSetup {
   }
   string label {
   }
-  "List<salesforce.LoyaltyProgramProcess>" programProcesses {
+  salesforce.LoyaltyProgramProcess programProcesses {
   }
   string internalId {
     _hidden_value = true
