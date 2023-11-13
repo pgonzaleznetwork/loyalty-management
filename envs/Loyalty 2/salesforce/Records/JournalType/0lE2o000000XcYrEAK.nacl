@@ -1,0 +1,6 @@
+salesforce.JournalType "0lE2o000000XcYrEAK" {
+  Description = "Represents a transaction that accrues points to a loyalty program member's balance."
+  Name = "Accrual"
+  ProcessType = "Loyalty"
+  _alias = "Accrual"
+}
