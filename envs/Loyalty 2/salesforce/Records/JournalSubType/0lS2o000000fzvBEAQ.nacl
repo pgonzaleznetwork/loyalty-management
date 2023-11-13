@@ -1,0 +1,5 @@
+salesforce.JournalSubType "0lS2o000000fzvBEAQ" {
+  JournalTypeId = salesforce.JournalType.instance.0lE2o000000XcYrEAK
+  Name = "Partner Accrual"
+  _alias = "Accrual Partner Accrual"
+}
