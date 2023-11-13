@@ -22,7 +22,11 @@ jobs:
         # Write the list of changed files to a text file
         echo "$changed_files" > changed_files.txt
 
+        cat changed_files.txt
+
         node create_slack_payload.js
+
+        cat slackPayload.json
 
     - name: Post to a Slack channel
       id: slack

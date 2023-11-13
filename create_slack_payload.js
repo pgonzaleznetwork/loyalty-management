@@ -28,6 +28,8 @@ try {
   // Process each line
   lines.forEach((line) => {
 
+    console.log('Processing line:', line)
+
     let block = {
         type: 'section',
         text: {
