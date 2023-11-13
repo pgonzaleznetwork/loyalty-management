@@ -1,0 +1,10 @@
+salesforce.LoyaltyProgramCurrency "0lc2o000000GnFcAAK" {
+  CurrencyType = "Qualifying"
+  HasEscrow = false
+  IsActive = true
+  IsPrimary = false
+  LoyaltyProgramId = salesforce.LoyaltyProgram.instance.0lp2o000000KzawAAC
+  LoyaltyTierGroupId = salesforce.LoyaltyTierGroup.instance.0lt2o000000GnFWAA0
+  Name = "Tier Points"
+  _alias = "Cloud Kicks Inner Circle Tier Points"
+}
