@@ -28,6 +28,10 @@ try {
   // Process each line
   lines.forEach((line) => {
 
+    if(line == 'README.md' || line == ''){
+        return;
+    }
+
     console.log('Processing line:', line)
 
     let block = {
@@ -47,7 +51,7 @@ try {
   console.error('Error reading the file:', err);
 }
 
-console.log(slackPayload)
+
 
 // Convert the object to a JSON string
 const jsonData = JSON.stringify(slackPayload); 
