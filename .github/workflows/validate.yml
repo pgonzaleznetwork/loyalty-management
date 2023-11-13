@@ -1,4 +1,4 @@
-name: CI - Int sandbox
+name: CI Prod
 on:
   pull_request:
     types:
